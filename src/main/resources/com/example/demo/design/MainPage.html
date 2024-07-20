@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <meta name="design-properties" content="{&quot;RULERS_VISIBLE&quot;:true,&quot;GUIDELINES_VISIBLE&quot;:false,&quot;SNAP_TO_OBJECTS&quot;:true,&quot;SNAP_TO_GRID&quot;:true,&quot;SNAPPING_DISTANCE&quot;:10,&quot;JAVA_SOURCES_ROOT&quot;:&quot;src/main/java&quot;,&quot;THEME&quot;:&quot;valo&quot;}">
+  <meta name="vaadin-version" content="8.0.5">
+ </head>
+ <body>
+  <vaadin-horizontal-layout style-name="valo-menu-responsive" responsive id="responsive-application-template" size-full>
+   <vaadin-css-layout style-name="valo-menu" _id="mainlayout">
+    <vaadin-css-layout style-name="valo-menu-part">
+     <vaadin-horizontal-layout style-name="valo-menu-title" width-full height="29px" _id="menuTitle">
+      <vaadin-label caption="BML" style-name="mule" _id="menuTitleLabel" :middle :expand></vaadin-label>
+      <vaadin-image _id="img"></vaadin-image>
+     </vaadin-horizontal-layout>
+     <vaadin-button icon="fonticon://FontAwesome/f03a" style-name="primary small valo-menu-toggle" plain-text _id="menuToggle">
+       Menu 
+     </vaadin-button>
+     <vaadin-css-layout style-name="valo-menuitems" _id="menuItems">
+      <vaadin-button icon="fonticon://Vaadin-Icons/e80d" primary-style-name="valo-menu-item" _id="student">
+        Student 
+      </vaadin-button>
+      <vaadin-button icon="fonticon://Vaadin-Icons/e943" primary-style-name="valo-menu-item" _id="gatepass">
+        Gatepass 
+      </vaadin-button>
+      <vaadin-button icon="fonticon://Vaadin-Icons/e798" primary-style-name="valo-menu-item" _id="logout">
+        Logout 
+      </vaadin-button>
+     </vaadin-css-layout>
+    </vaadin-css-layout>
+    <vaadin-vertical-layout _id="mainpagevl">
+     <vaadin-label style-name="mainh1" _id="mainlabel">
+       EAIESB 
+     </vaadin-label>
+     <vaadin-vertical-layout _id="content" :expand></vaadin-vertical-layout>
+    </vaadin-vertical-layout>
+   </vaadin-css-layout>
+  </vaadin-horizontal-layout>
+ </body>
+</html>
